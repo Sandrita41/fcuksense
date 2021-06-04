@@ -1,19 +1,21 @@
-body,
-body * {
+body {
     margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
 }
 
 main {
-    display: flex;
+    display: inline-block;
+    width: 1400px;
+    margin-left: calc(50% - 700px);
 }
 
-.left-side {
-    flex-direction: left;
+.left-column {
+    width: 40%;
+    float: left;
+    background-color: yellow;
 }
 
-.right-side {
-    flex-direction: rights;
+.right-column {
+    width: 60%;
+    float: right;
+    background-color: blue;
 }
