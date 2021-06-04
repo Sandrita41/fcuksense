@@ -1,0 +1,19 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+.left-side {
+    flex-direction: left;
+}
+
+.right-side {
+    flex-direction: rights;
+}
