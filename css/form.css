@@ -1,7 +1,6 @@
 .form {
     display: flex;
     flex-direction: column;
-    gap: 40px;
     width: 100%;
     background-color: yellow;
 }
@@ -12,20 +11,56 @@
 }
 
 .title {
-    padding-bottom: 40px;
+    font-size: 30px;
+    line-height: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4456C6;
+}
+
+.intro {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.summary {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #898E9C;
 }
 
 .form-row {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     width: 100%;
 }
 
-.form-row>label {}
+.form-row>label {
+    font-size: 20px;
+}
 
 .form-row>input {
     line-height: 40px;
+    border: none;
+}
+
+div.form-row.input-box {
+    border: 1px solid #898E9C;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.form-row>input::placeholder {
+    color: #4456C6;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-row.form-links {
+    flex-direction: row;
+    justify-content: start
 }
 
 .form-row.links {
