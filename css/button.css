@@ -1,22 +1,28 @@
 .buttons {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
+    padding: 20px;
 }
 
 .buttons-style {
     font-size: 20px;
     line-height: 50px;
-    padding: 0 40px;
+    padding: 0 56px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .login-btn {
-    background-color: #4456C6;
+    background-color: #3751FF;
     border: none;
+    color: white;
 }
 
 .submit-btn {
     background-color: white;
-    border: #4456C6#4456C6;
+    border: 1px solid #3751FF;
+    color: #3751FF;
     ;
 }
