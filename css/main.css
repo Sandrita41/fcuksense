@@ -8,9 +8,8 @@ body * {
 body {}
 
 main {
+    width: 100%;
     display: inline-block;
-    width: 1400px;
-    margin-left: calc(50% - 700px);
 }
 
 .left-column {
@@ -23,5 +22,8 @@ main {
 .right-column {
     width: 60%;
     float: right;
-    background-color: blue;
+    height: 100vh;
+    background-image: url(../img/login_screen.png);
+    background-size: cover;
+    background-position: center;
 }
