@@ -1,3 +1,29 @@
-.form {}
+.form {
+    display: inline-block;
+    width: 100%;
+}
 
-.footer {}
+.form-row {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-row>label {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-row>input {
+    display: inline-block;
+    width: 100%;
+}
+
+.footer {
+    display: inline-block;
+    width: 100%;
+}
+
+.footer>a {
+    display: inline-block;
+    width: 100%;
+}
