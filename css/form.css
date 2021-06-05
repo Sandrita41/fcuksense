@@ -6,6 +6,15 @@
     background-color: yellow;
 }
 
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding-bottom: 40px;
+}
+
 .form-row {
     display: flex;
     flex-direction: column;
@@ -15,7 +24,9 @@
 
 .form-row>label {}
 
-.form-row>input {}
+.form-row>input {
+    line-height: 40px;
+}
 
 .form-row.links {
     display: flex;
