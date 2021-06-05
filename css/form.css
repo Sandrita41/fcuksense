@@ -54,6 +54,7 @@ div.form-row.input-box {
     background-color: white;
     padding: 20px;
     padding-bottom: 0;
+    border-radius: 3px;
 }
 
 .form-row>input::placeholder {
@@ -76,7 +77,16 @@ div.form-row.input-box {
 .footer {
     display: flex;
     flex-direction: row;
+    gap: 10px;
     width: 100%;
 }
 
-.footer>a {}
+.footer>a:nth-child(1) {
+    color: #898E9C;
+}
+
+.footer>a {
+    font-size: 20px;
+    color: #3751FF;
+    padding: 20px;
+}
