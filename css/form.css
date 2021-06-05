@@ -1,29 +1,32 @@
 .form {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     width: 100%;
+    background-color: yellow;
 }
 
 .form-row {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 100%;
 }
 
-.form-row>label {
-    display: inline-block;
-    width: 100%;
-}
+.form-row>label {}
 
-.form-row>input {
-    display: inline-block;
+.form-row>input {}
+
+.form-row.links {
+    display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
 .footer {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
-.footer>a {
-    display: inline-block;
-    width: 100%;
-}
+.footer>a {}
