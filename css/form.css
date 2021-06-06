@@ -71,8 +71,22 @@ div.form-row.input-box {
     flex-direction: row;
     gap: 100px;
     font-size: 20px;
-    color: #898E9C;
     padding-top: 20px;
+}
+
+.remember-link>input {
+    height: 15px;
+    width: 15px;
+}
+
+.remember-link>a {
+    color: #898E9C;
+    text-decoration: none;
+}
+
+.form-row.form-links>a {
+    color: #898E9C;
+    text-decoration: none;
 }
 
 .footer {
