@@ -50,6 +50,7 @@
 
 div.form-row.input-box.email-field {
     border-left: 5px solid #3751FF;
+    border-bottom: none;
 }
 
 div.form-row.input-box {
