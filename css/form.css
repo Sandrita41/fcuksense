@@ -50,11 +50,10 @@
 
 div.form-row.input-box.email-field {
     /* border-left: 5px solid #3751FF;*/
-    border-bottom: none;
 }
 
 div.form-row.input-box {
-    border: 1px solid #898E9C;
+    border: 1px solid #E0E2E8;
     background-color: white;
     padding: 20px;
     padding-bottom: 0;
@@ -75,8 +74,8 @@ div.form-row.input-box {
 }
 
 .remember-link>input {
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
 }
 
 .remember-link>a {

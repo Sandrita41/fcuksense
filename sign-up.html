@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fcuksense</title>
+    <title>Sign in</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/button.css">
@@ -21,28 +21,35 @@
             </div>
 
             <form class=".form">
-                <div class="form-row input-box email-field">
-                    <label class="email-field">Email Address</label>
-                    <input placeholder="wes@fucksense.com" type="text" required>
+                <div class="form-row input-box">
+                    <label for="username">Username</label>
+                    <input id="username" placeholder="Enter username..." type="text" required>
+                </div>
+                <div class="form-row input-box">
+                    <label for="email">Email</label>
+                    <input id="email" placeholder="Enter email..." type="email" required>
+                </div>
+                <div class="form-row input-box">
+                    <label for="pass">Password</label>
+                    <input id="pass" placeholder="Enter password..." type="password" required>
+                </div>
+                <div class="form-row input-box">
+                    <label for="re-pass">Repeat password</label>
+                    <input id="re-pass" placeholder="Repeat password..." type="password" required>
                 </div>
 
-                <div class="form-row input-box">
-                    <label>Password</label>
-                    <input placeholder="****************" type="text" required>
-                </div>
                 <div class="form-row form-links">
                     <div class="remember-link">
                         <input type="checkbox">
                         <a href="#">Remember me</a>
                     </div>
-                    <a class="forgot-link" href="#">Forget Password?</a>
                 </div>
                 <div class="buttons">
-                    <button class="login-btn buttons-style" type="submit">Login</button>
-                    <button class="submit-btn buttons-style" type="submit">Sign Up</button>
+                    <button class="login-btn buttons-style" type="submit">Sign up</button>
+                    <button class="submit-btn buttons-style" type="submit">Login</button>
                 </div>
                 <footer class="footer">
-                    <a class="login-link" href="#" target="_blank">Or login with </a>
+                    <a class="login-link" href="#" target="_blank">Or register with </a>
                     <a href="#" target="_blank">Facebook</a>
                     <a href="#" target="_blank">Linkedin</a>
                     <a href="#" target="_blank">Google</a>
